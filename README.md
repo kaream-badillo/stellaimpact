@@ -1,129 +1,108 @@
-# 🪪 EcoBeca Wallet – README.md Público para IDEATON STELLAR TELLUS 2025 LATAM
-#⚠️ Proyecto aún en desarrollo. Actualizaciones en curso hasta el 10 de agosto 2025 para el Stellar LATAM Ideathon.
+# 🌟 StellaImpact – Reputación simbólica para universidades Web3
+
+Transforma acciones invisibles (como enseñar, reciclar o ayudar) en reputación verificable y simbólica a través de validaciones QR, badges acumulables y un sistema reputacional público sobre Stellar. Diseñado para empoderar a embajadores comunitarios y visibilizar impacto real en contextos universitarios latinoamericanos.
+
 ---
 
-## 🔹 PARTE N°1 – Resumen Ejecutivo 
-
-### 📌 Resumen del Proyecto
+## 🔹 Parte N°1 – Resumen Ejecutivo
 
 | Elemento | Detalle |
 | --- | --- |
-| 🧱 Nombre | EcoBeca Wallet |
-| 🎯 Propósito | Convertir acciones sociales invisibles (reciclaje, voluntariado, educación) en reputación simbólica y microbecas on-chain |
-| 🛠️ Stack | Next.js, Tailwind, Stellar (simulado), QR Scanner, localStorage |
-| 📅 Fechas clave | 5–10 agosto 2025 (Stellar LATAM Ideathon) |
-| 🌐 Demo | [ecobeca-wallet.vercel.app](https://ecobeca-wallet.vercel.app) |
-| 💾 Repositorio | [github.com/tuusuario/ecobeca-wallet](https://github.com/kaream-badillo/ecobeca-wallet) |
-| 🎥 Pitch (video) | [loom.com/share/ecobeca-wallet](https://loom.com/share/ecobeca-wallet) |
+| 🧠 Nombre del proyecto | **StellaImpact** |
+| 🎯 Propósito | Reputación simbólica para acciones invisibles validadas vía QR |
+| 🧱 Stack técnico | Next.js · Tailwind · Node.js · Vercel · Stellar Testnet · Freighter |
+| 🔧 Estado del MVP | ✅ Funcional inicial – Validación QR + badges + perfiles + wallet |
+| 🧪 Enlace demo | [https://stellaimpact.vercel.app](https://ecobeca-wallet.vercel.app/) |
+| 🗓️ Fechas clave | Desarrollo: 5–10 agosto · Deadline: 10 agosto – 02:59 UTC |
+| 🌍 Modalidad | Remota – Entrega de MVP y pitch |
+| 📦 Repositorio | https://github.com/kaream-badillo/ecobeca-wallet (será renombrado a StellaImpact) |
+| 🧑‍💻 Autor | Kaream Badillo – 🇨🇱 Chile – [GitHub](https://github.com/kareamb) |
+| 🏷️ Tags | Reputación · Educación · DAOs · Identidad · NFTs · LATAM · Stellar |
+| ✅ Entregables | ✅ MVP funcional · ✅ README · ✅ Demo pública · ✅ Stack Web3 |
 
 ---
 
-### ✅ Estado del MVP
+## 🔹 Parte N°2 – Detalles Técnicos y Contexto
 
-🟩 **En desarrollo avanzado.** Mockup funcional en progreso con validación QR, badges reputacionales, wallet simulada y dashboard.
+### 🎬 Pitch emocional
 
----
+> “Haz visible lo invisible en tu universidad. Tu esfuerzo deja huella en Stellar, aunque no tenga nota.”
+> 
 
-### 📷 Miniatura
+### 🧠 Descripción funcional
 
-![EcoBeca Wallet Preview](./public/preview.png)
-
----
-
-### 📇 Información de contacto
-
-- 👤 Alias: Kaream Badillo
-- 📍 País: Chile
-- 🐙 GitHub: [@tuusuario](https://github.com/kaream-badillo)
-- ✉️ Email: opcional
-
----
-
-### 🏷️ Tags
-
-`#Reputación` `#IdentidadSimbólica` `#NFTs` `#Educación` `#ImpactoSocial` `#Stellar` `#Hackathon` `#DAO` `#Web3`
-
----
-
-### 🧾 Checklist de entregables
-
-- ✅ README público
-- ✅ Demo deploy
-- ✅ Código funcional
-- ✅ Pitch emocional grabado
-- ✅ Planificación diaria
-- ✅ MVP parcial con QR + reputación visible
-
----
-
-## 🔹 PARTE N°2 – Detalles Técnicos y Contexto
-
-### 🪪 Nombre del Proyecto
-
-**EcoBeca Wallet**  
-_"Dignidad visible para quienes impactan en silencio"_
-
----
-
-### 🎤 Pitch emocional (1 minuto)
-
-> “Hay personas que ayudan cada semana. Enseñan, limpian, apoyan. Pero nadie lo ve.  
->  
-> Con EcoBeca Wallet, sus acciones se validan vía QR, y crean reputación visible, pública y recompensada.  
->  
-> Cada validación activa una wallet Stellar, y su impacto queda registrado.  
->  
-> Usamos tecnología real para mostrar lo que antes era invisible.  
->  
-> Esta app no entrega solo tokens. Entrega visibilidad, dignidad y una historia que sí cuenta.  
->  
-> Gracias a Stellar, las buenas acciones ahora también valen.”
-
----
-
-### 🔍 Explicación funcional del MVP
-
-EcoBeca Wallet convierte acciones comunitarias (reciclaje, voluntariado, educación, cuidado) en reputación simbólica on-chain.  
-Validadores escanean un QR que registra la acción en la wallet del usuario, generando badges, historial reputacional y microbecas.
-
----
+- Sistema de validación simbólica vía QR por embajadores comunitarios.
+- Acciones (como ayudar o reciclar) son convertidas en badges acumulables visibles en un perfil reputacional.
+- Incentiva apertura de wallets, reputación descentralizada y narrativas de impacto.
+- Incluye dashboard simulado por universidad + exportador PDF de impacto personal.
 
 ### ⚙️ Stack técnico
 
-- **Frontend:** Next.js + TailwindCSS  
-- **QR:** html5-qrcode  
-- **Reputación:** localStorage + badges simbólicos  
-- **Blockchain:** Stellar (wallet Freighter, simulación sin Soroban)  
-- **Hosting:** Vercel  
-- **Pitch Tools:** OBS Studio o Loom  
+- **Frontend:** Next.js + TailwindCSS
+- **Backend:** API Routes en Vercel + validación simbólica
+- **Blockchain:** Stellar testnet (via Freighter) – nivel simbólico con expansión futura
+- **Validación:** QR + input manual + foto o timestamp
+- **Reputación:** Sistema visual de badges + historial + barra de avance
 
----
+### 📂 Estructura del repositorio
 
-### ▶️ Instrucciones para correr el proyecto
+```
+/stellaimpact
+├── /pages             # Landing, login, dashboard
+├── /components        # Reputación, badges, validadores
+├── /public            # Imágenes, íconos, logos
+├── /utils             # Validación, lógica simbólica
+├── /api               # Validación QR, perfiles
+└── README.md
+
+```
+
+### 🧪 Cómo correr el proyecto
 
 ```bash
-git clone https://github.com/kaream-badillo/ecobeca-wallet
-cd ecobeca-wallet
+git clone <https://github.com/kareamb/stellaimpact>
+cd stellaimpact
 npm install
 npm run dev
 
-### 🌐 Enlace a la demo
-https://ecobeca-wallet.vercel.app
+```
 
----
+Accede a `http://localhost:3000`
+
+### 🌐 Enlace a la demo pública
+
+[https://ecobeca-wallet.vercel.app](https://ecobeca-wallet.vercel.app/) (pronto migrado a [https://stellaimpact.vercel.app](https://stellaimpact.vercel.app/))
 
 ### 📸 Capturas de pantalla
-(Agrega aquí si tienes imágenes, ej. `./public/demo-qr.png`, `./public/profile-view.png`)
+
+(Agrega aquí tus capturas, ejemplo: `./public/demo-qr.png`, `./public/profile-view.png`)
 
 ---
 
 ### 🧪 Funcionalidades clave
 
-- Validación vía QR + input manual  
-- Historial público de acciones  
-- Recompensas simbólicas (NFT, badges)  
-- Dashboard de impacto visible  
-- Activación embajadores  
+- Validación vía QR + input manual
+- Historial público de acciones
+- Recompensas simbólicas (NFT, badges)
+- Dashboard de impacto visible
+- Activación de embajadores
+- Botón “Ver en Stellar (futuro)”
+
+---
+
+### ⚠️ Riesgos y advertencias
+
+- Las microbecas no están garantizadas. Son simbólicas.
+- Debe evitarse que el MVP se perciba como vacío: siempre mostrar reputación acumulada.
+- La conexión onchain debe ser visible, aunque sea simulada (botón, dirección, testnet).
+
+---
+
+### 🧪 Créditos e inspiración
+
+- Proyecto desarrollado para el **Stellar LATAM Ideathon 2025**
+- Inspirado por: Giveth, Gitcoin Passport, Campus On Chain
+- Creado por Kaream Badillo, con foco en reputación simbólica y acción visible en blockchain
 
 ---
 
@@ -133,45 +112,16 @@ MIT
 
 ---
 
-### 🧠 Créditos e inspiración
-
-- Proyecto desarrollado para el **Stellar LATAM Ideathon 2025**  
-- Inspirado en **Giveth**, **Gitcoin Passport** y **Campus On Chain**  
-- Creado por **Kaream Badillo**, con foco en impacto simbólico y reputación descentralizada  
-
----
-
 ### 📅 Fechas clave
 
-| Evento               | Fecha                        |
-|----------------------|------------------------------|
-| Comienzo desarrollo  | 5 agosto 2025                |
-| Submission habilitado| 7 agosto 2025                |
-| Deadline final       | 10 agosto 2025 – 02:59 UTC   |
-| Modalidad            | Remota, entrega de MVP y pitch |
-
----
-
-### 🔧 Extras (componentes y estructura técnica)
-
-/ecobeca-wallet
-├── /pages # Landing, validación, perfil, dashboard
-├── /components # QR, badges, cards
-├── /public # Logos, capturas, QR de ejemplo
-├── /styles # Tailwind base
-├── /utils # Funciones de validación, fecha
-
+| Evento | Fecha |
+| --- | --- |
+| Inicio desarrollo | 5 agosto 2025 |
+| Pitch habilitado | 7 agosto 2025 |
+| Deadline final | 10 agosto 2025 – 02:59 UTC |
 
 ---
 
 ### 📦 Versión del Proyecto
 
-Versión: MVP v0.8 – actualizado el 5 de agosto 2025
----
-
-### 🛠️ Estado del repositorio
-
-✅ Código base funcional  
-🕓 Integración de pitch y capturas en progreso  
-📅 Próxima actualización: 6 de agosto 2025
-
+Versión: MVP v0.1 – actualizado el 2025-08-053
