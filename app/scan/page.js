@@ -83,7 +83,7 @@ export default function ScanPage() {
       } else if (data.startsWith("stellar:")) {
         // Stellar URI scheme
         handleStellarURI(data);
-      } else if (data.includes("recycling") || data.includes("ecobeca")) {
+      } else if (data.includes("recycling") || data.includes("stellaimpact")) {
         // Recycling verification code
         handleRecyclingCode(data);
       } else {

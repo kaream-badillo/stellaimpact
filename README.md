@@ -12,10 +12,10 @@ Transforma acciones invisibles (como enseñar, reciclar o ayudar) en reputación
 | 🎯 Propósito | Reputación simbólica para acciones invisibles validadas vía QR |
 | 🧱 Stack técnico | Next.js · Tailwind · Node.js · Vercel · Stellar Testnet · Freighter |
 | 🔧 Estado del MVP | ✅ Funcional inicial – Validación QR + badges + perfiles + wallet |
-| 🧪 Enlace demo | [https://stellaimpact.vercel.app](https://ecobeca-wallet.vercel.app/) |
+| 🧪 Enlace demo | [https://stellaimpact.vercel.app](https://stellaimpact.vercel.app/) |
 | 🗓️ Fechas clave | Desarrollo: 5–10 agosto · Deadline: 10 agosto – 02:59 UTC |
 | 🌍 Modalidad | Remota – Entrega de MVP y pitch |
-| 📦 Repositorio | https://github.com/kaream-badillo/ecobeca-wallet (será renombrado a StellaImpact) |
+| 📦 Repositorio | https://github.com/kaream-badillo/stellaimpact (será renombrado a StellaImpact) |
 | 🧑‍💻 Autor | Kaream Badillo – 🇨🇱 Chile – [GitHub](https://github.com/kareamb) |
 | 🏷️ Tags | Reputación · Educación · DAOs · Identidad · NFTs · LATAM · Stellar |
 | ✅ Entregables | ✅ MVP funcional · ✅ README · ✅ Demo pública · ✅ Stack Web3 |
@@ -71,7 +71,7 @@ Accede a `http://localhost:3000`
 
 ### 🌐 Enlace a la demo pública
 
-[https://ecobeca-wallet.vercel.app](https://ecobeca-wallet.vercel.app/) (pronto migrado a [https://stellaimpact.vercel.app](https://stellaimpact.vercel.app/))
+[https://stellaimpact.vercel.app](https://stellaimpact.vercel.app/))
 
 ### 📸 Capturas de pantalla
 
